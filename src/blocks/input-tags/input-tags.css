@@ -1,0 +1,20 @@
+.input-tags {
+  display: block;
+  width: 200px;
+  padding: 0 0 5px;
+  font-size: 15px;
+}
+
+.input-tags:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+@media screen and (max-width: 675px) {
+  .input-tags {
+    width: 100px;
+    text-align: center;
+  }
+}

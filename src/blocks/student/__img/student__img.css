@@ -1,0 +1,15 @@
+.student__img {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  border: 1px solid rgb(221, 221, 221);
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 675px) {
+  .student__img {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+  }
+}

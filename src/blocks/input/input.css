@@ -1,0 +1,17 @@
+.input {
+  border: none;
+  border-bottom: 1px solid rgb(206, 206, 206);
+  color: rgb(206, 206, 206);
+  padding: 20px 0 10px;
+  margin: 0 10px;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  color: black;
+}

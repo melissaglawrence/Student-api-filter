@@ -1,0 +1,7 @@
+.student__info_text {
+  margin: 4px 0;
+}
+
+.student__info_text:last-of-type {
+  margin-bottom: 10px;
+}

@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url(vendor/normalize.css);
+@import url(blocks/root.css);
+@import url(blocks/button/button.css);
+@import url(blocks/student/student.css);
+@import url(blocks/student/__img/student__img.css);
+@import url(blocks/student/__info-container/student__info-container.css);
+@import url(blocks/student/__info/student__info.css);
+@import url(blocks/student/__info/_text/student__info_text.css);
+@import url(blocks/student/__name/student__name.css);
+@import url(blocks/student/__tags/student__tags.css);
+@import url(blocks/student/__tests/student__tests.css);
+@import url(blocks/student/__tests/_hidden/student__tests_hidden.css);
+@import url(blocks/student/__tests/_collapse/student__tests_collapse.css);
+@import url(blocks/student/__tests/_expand/student__tests_expand.css);
+@import url(blocks/students/students.css);
+@import url(blocks/students/__list/students__list.css);
+@import url(blocks/input/input.css);
+@import url(blocks/input/__tags/input__tags.css);
+@import url(blocks/input/__form/input__form.css);
