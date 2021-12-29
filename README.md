@@ -1,4 +1,4 @@
-# Hatchways Frontend Assessment - Student Profiles
+# Frontend Assessment - Student Profiles
 
 Front End coding project that displays students profiles from and API.
 
